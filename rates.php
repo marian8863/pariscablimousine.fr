@@ -155,7 +155,7 @@ td:hover {
                         </thead>
                         <tbody>
                             <?php
-                            $sql3="SELECT spe.p_id,spe.p_place,spe.d_place,rpe.3P from m_benz_e_tesla_y spe , m_benz_e_or_tesla_y_rate rpe where spe.p_id=rpe.p_id;";
+                            $sql3="SELECT spe.p_id,spe.p_place,spe.d_place,rpe.3P from m_benz_e_tesla_y spe , m_benz_e_or_tesla_y_rate rpe where spe.p_id=rpe.p_id";
                             $result = mysqli_query($con, $sql3);
                             if (mysqli_num_rows($result) > 0) {
                             
