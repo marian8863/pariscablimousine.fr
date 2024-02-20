@@ -72,8 +72,8 @@ td:hover {
                         <th>From</th>
                         <th>Destination</th>
                         <th>1-2 P.</th>
-                        <th>3 P.</th>
-                        <th>4 P.</th>
+                        <th>3-4 P.</th>
+                        <th>4-7 P.</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -112,7 +112,7 @@ td:hover {
                         <tr style="background-color:#fd5631;color:white;">
                             <th></th>
                             <th>1-4 P.</th>
-                            <th>4-6 P.</th>
+                            <th>4-7 P.</th>
                         </tr>
                         </thead>
                         <tbody>
