@@ -3,6 +3,15 @@ deployment:
   tasks:
       # - export DEPLOYPATH=/home/c1987705c/public_html/
       # - /bin/cp * $DEPLOYPATH
-      - export DEPLOYPATH=/home/c1987705c/public_html
+      - export DEPLOYPATH=/home/c1987705c/public_html/
       # - /bin/cp * $DEPLOYPATH
-      - /bin/cp -r /home/c1987705c/public_html/public_html/ $DEPLOYPATH
+      - /bin/cp -r /home/c1987705c/public_html/public_html/admin $DEPLOYPATH
+      - /bin/cp -r /home/c1987705c/public_html/public_html/controller $DEPLOYPATH
+      - /bin/cp -r /home/c1987705c/public_html/public_html/css $DEPLOYPATH
+      - /bin/cp -r /home/c1987705c/public_html/public_html/dist $DEPLOYPATH
+      - /bin/cp -r /home/c1987705c/public_html/public_html/fonts $DEPLOYPATH
+      - /bin/cp -r /home/c1987705c/public_html/public_html/img $DEPLOYPATH
+      - /bin/cp -r /home/c1987705c/public_html/public_html/js $DEPLOYPATH
+      - /bin/cp -r /home/c1987705c/public_html/public_html/json $DEPLOYPATH
+      - /bin/cp -r /home/c1987705c/public_html/public_html/vendor $DEPLOYPATH
+      
