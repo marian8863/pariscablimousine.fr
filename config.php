@@ -17,8 +17,8 @@ session_start();
 // if (mysqli_connect_errno()){
 //   }else{
 //   }
-//   $con = mysqli_connect('localhost', 'root', '', 'pcl_web');
-  $con = mysqli_connect('localhost','c1987705c', '7u33gvqUWtktw25', 'c1987705c_pariscablimousine.fr');
+  $con = mysqli_connect('localhost', 'root', '', 'pcl_web');
+//   $con = mysqli_connect('localhost','c1987705c', '7u33gvqUWtktw25', 'c1987705c_pariscablimousine.fr');
 //   $con = mysqli_connect('localhost','ceadhzdi_cedar', 'JKjayanth96@', 'ceadhzdi_cedar');
 
   // variable declaration

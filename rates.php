@@ -78,8 +78,8 @@ td:hover {
                     </thead>
                     <tbody>
                         <?php
-                        $sql="select sp.p_place,sp.d_place,rp.1_2P,rp.3P,rp.4P from select_places sp , rates_payment rp where sp.p_id=rp.p_id";
-                        $result = mysqli_query($con, $sql);
+                        $sql1="select sp.p_place,sp.d_place,rp.1_2P,rp.3P,rp.4P from select_places sp , rates_payment rp where sp.p_id=rp.p_id";
+                        $result = mysqli_query($con, $sql1);
                         if (mysqli_num_rows($result) > 0) {
                         
                         while($row = mysqli_fetch_assoc($result)) { 
@@ -117,8 +117,8 @@ td:hover {
                         </thead>
                         <tbody>
                             <?php
-                            $sql="select p1t.pa_id,p1t.pa_name,p1t.description,p1tr.1_4P,p1tr.4_6P from m_benz_v_package p1t , m_benz_v_package_rate p1tr where p1t.pa_id=p1tr.pa_id";
-                            $result = mysqli_query($con, $sql);
+                            $sql2="select p1t.pa_id,p1t.pa_name,p1t.description,p1tr.1_4P,p1tr.4_6P from m_benz_v_package p1t , m_benz_v_package_rate p1tr where p1t.pa_id=p1tr.pa_id";
+                            $result = mysqli_query($con, $sql2);
                             if (mysqli_num_rows($result) > 0) {
                             
                             while($row = mysqli_fetch_assoc($result)) { 
@@ -155,8 +155,8 @@ td:hover {
                         </thead>
                         <tbody>
                             <?php
-                            $sql="select spe.p_place,spe.d_place,rpe.3P from m_benz_E_or_tesla_Y spe , m_benz_E_or_tesla_Y_rate rpe where spe.p_id=rpe.p_id";
-                            $result = mysqli_query($con, $sql);
+                            $sql3="SELECT spe.p_id,spe.p_place,spe.d_place,rpe.3P from m_benz_E_or_tesla_Y spe , m_benz_E_or_tesla_Y_rate rpe where spe.p_id=rpe.p_id";
+                            $result = mysqli_query($con, $sql3);
                             if (mysqli_num_rows($result) > 0) {
                             
                             while($row = mysqli_fetch_assoc($result)) { 
@@ -186,8 +186,8 @@ td:hover {
                         </thead> -->
                         <tbody>
                             <?php
-                            $sql="select p1ec.pa_name1,p1er.p1er_rate from m_benz_e_or_tesla_y_package p1ec,m_benz_e_or_tesla_y_package_rate p1er where p1ec.pa_id1=p1er.pa_id1";
-                            $result = mysqli_query($con, $sql);
+                            $sql4="select p1ec.pa_name1,p1er.p1er_rate from m_benz_e_or_tesla_y_package p1ec,m_benz_e_or_tesla_y_package_rate p1er where p1ec.pa_id1=p1er.pa_id1";
+                            $result = mysqli_query($con, $sql4);
                             if (mysqli_num_rows($result) > 0) {
                             
                             while($row = mysqli_fetch_assoc($result)) { 
