@@ -14,5 +14,6 @@ deployment:
       - /bin/cp -r /home/c1987705c/public_html/public_html/js $DEPLOYPATH
       - /bin/cp -r /home/c1987705c/public_html/public_html/json $DEPLOYPATH
       - /bin/cp -r /home/c1987705c/public_html/public_html/vendor $DEPLOYPATH
+      - /bin/cp -r /home/c1987705c/public_html/public_html/.htaccess $DEPLOYPATH
       - /bin/cp * $DEPLOYPATH
       
