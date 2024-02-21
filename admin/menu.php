@@ -368,7 +368,7 @@ $u_p = $_SESSION['user']['profile'];
                 <a href="view_m_benz_e_or_tesla_y" class="nav-link clk">
                   <i class="far fa-circle nav-icon"></i>
                   <p>
-                  M-BENZ V / Tesla Y 
+                  M-BENZ E / Tesla Y 
                   </p>
                 </a>
               </li>
@@ -377,7 +377,7 @@ $u_p = $_SESSION['user']['profile'];
                 <a href="view_m_benz_e_or_tesla_y_package" class="nav-link clk">
                   <i class="far fa-circle nav-icon"></i>
                   <p>
-                  M-BENZ V / Tesla Y Package
+                  M-BENZ E / Tesla Y Package
                   </p>
                 </a>
               </li>
