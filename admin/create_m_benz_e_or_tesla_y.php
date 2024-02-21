@@ -83,14 +83,14 @@ if(isset($_GET['get_id'])){
                       <!-- text input -->
                       <div class="form-group">
                         <label>From</label>
-                        <input type="text" class="form-control" name="p_place" value="<?php if(isset($_GET['get_id'])){ echo $p_place;}?>" placeholder="Enter ..." readonly>
+                        <input type="text" class="form-control" name="p_place" value="<?php if(isset($_GET['get_id'])){ echo $p_place;}?>" placeholder="Enter ..." >
                       </div>
                     </div>
                     <div class="col-sm-6">
                       <!-- text input -->
                       <div class="form-group">
                         <label>To</label>
-                        <input type="text" class="form-control" name="d_place" value="<?php if(isset($_GET['get_id'])){ echo $d_place;}?>" placeholder="Enter ..." readonly>
+                        <input type="text" class="form-control" name="d_place" value="<?php if(isset($_GET['get_id'])){ echo $d_place;}?>" placeholder="Enter ..." >
                       </div>
                     </div>
                   </div>
