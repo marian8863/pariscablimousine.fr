@@ -85,8 +85,8 @@ if(isset($_GET['get_id'])){
                     <th>From</th>
                     <th>Destination</th>
                     <th>1-2P.</th>
-                    <th>3P.</th>
-                    <th>4P.</th>
+                    <th>3-4P.</th>
+                    <th>4-7P.</th>
                     <th>Action</th>
                     <!-- <th data-visible="false">Create Date</th> -->
                   </tr>
