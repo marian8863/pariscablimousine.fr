@@ -16,7 +16,7 @@ $u_p = $_SESSION['user']['profile'];
 
 if(isset($_GET['get_id'])){
     $pid=$_GET['get_id'];
-    $sql="SELECT spe.p_id,spe.p_place,spe.d_place,rpe.3P from m_benz_e_tesla_y spe , m_benz_E_or_tesla_Y_rate rpe where spe.p_id=rpe.p_id and spe.p_id='$pid'";
+    $sql="SELECT spe.p_id,spe.p_place,spe.d_place,rpe.3P from m_benz_e_tesla_y spe , m_benz_e_or_tesla_y_rate rpe where spe.p_id=rpe.p_id and spe.p_id='$pid'";
     $result = mysqli_query($con,$sql);
     if(mysqli_num_rows($result)==1) {       
         $row=mysqli_fetch_assoc($result);
